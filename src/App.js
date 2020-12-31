@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 /* importing from index file. 
 When we've index, we just mention folder name
