@@ -4,8 +4,15 @@
     width: 85%;
 }
 
+.chart {
+  height: 400;
+}
+
 @media (max-width: 770px) {
     .container {
       width: 100%;
+    }
+    .chart {
+      height: 150;
     }
   }

@@ -31,7 +31,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     const lineChart = (
         dailyData.length
             ? (
-                <Line responsive={true}
+                <Line className={styles.chart}
                     data={{
                         labels: dailyData.map(({ date }) => (date)),
                         datasets: [{
@@ -66,7 +66,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     const barChart = (
         confirmed
             ? (
-                <Bar responsive={true}
+                <Bar className={styles.chart}
                     data={{
                         labels: ['Infected', 'Recovered', 'Deaths'],
                         datasets: [{
