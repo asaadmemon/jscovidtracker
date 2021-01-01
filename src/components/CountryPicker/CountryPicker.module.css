@@ -1,4 +1,18 @@
 .formControl {
     width: 30%;
-    margin-bottom: 30px !important;
+    margin-bottom: 0px !important;
+    margin-top: 30px !important;
+}
+
+.bold {
+    font-weight: bolder;
+    align-content: center;
+    text-align: center;
+}
+
+@media (max-width: 770px) {
+    .formControl {
+        margin: 0 10%;
+        width: 75%;
+    }  
 }
