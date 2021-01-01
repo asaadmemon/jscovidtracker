@@ -6,7 +6,7 @@
 }
 
 .card {
-    margin: 0 1% !important;
+    margin: 0 2% !important;
 }
 
 .infected {
@@ -23,6 +23,6 @@
 
 @media (max-width: 770px) {
     .card {
-        margin: 1% 0 !important;
+        margin: 2% 0 !important;
     }
 }
